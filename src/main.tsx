@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from './components/app'
+import { App } from './components/App'
 import './styles/globals.css'
 import { stsConfig } from './lib/constants' // Keep as fallback
 import { VoiceBotProvider } from './context/VoiceBotContextProvider'
